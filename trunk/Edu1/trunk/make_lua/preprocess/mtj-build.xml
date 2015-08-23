@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build-all" name="PRO">
+	<property file="mtj-build.properties"/>
+	<taskdef classpath="${antenna.lib}" resource="antenna.properties"/>
+
+	<target depends="preprocess" name="build-all">
+   </target>
+      <target depends="" name="preprocess">
+      <wtkpreprocess debuglevel="info" destdir=".." printsymbols="false" srcdir="." verbose="false" encoding="UTF-8">
+         <symbols_file name="${basedir}/DefaultColorPhone.symbols"/>
+      </wtkpreprocess>
+   </target>
+</project>

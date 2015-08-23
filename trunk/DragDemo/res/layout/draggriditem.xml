@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_one"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <com.zzq.view.DragGrid
+        android:id="@+id/gridview"
+        android:layout_marginTop="30dip"
+        android:layout_width="350dip"
+        android:layout_height="500dip"
+        android:background="#FF00FF"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="2"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" >
+    </com.zzq.view.DragGrid>
+
+</RelativeLayout>

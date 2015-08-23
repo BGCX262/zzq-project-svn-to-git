@@ -1,0 +1,3 @@
+1、注意修改JYWrapper_data\JY_Android\LUA\usercode.lua中的CHANNEL.PACK_GAME_NAME = "FTZJ_SLWGL"，这个名字最好不要出现符号，要出现也只能用下划线。
+2、然后注意make_lua目录中的svn新添加项，for_workspace主要用于建立Eclipse的工作空间。
+3、双击make_android_workspace.bat就可产生eclipse的android项目，在eclipse中导入项目打包即可。

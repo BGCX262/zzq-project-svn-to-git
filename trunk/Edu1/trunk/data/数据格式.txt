@@ -1,0 +1,17 @@
+PNG文件包
+
+目录文件格式：
+UINT32 Count = 数量
+
+for i = 0;i < Count;i++)
+{
+	ReadUTF () 文件名
+	ReadUTF () 所在包名
+	Int32 OFFSET
+	Int32 Length
+}
+
+数据包文件：
+	
+final static byte[] head = new byte[]{(byte) 0x89, (byte) 0x50, (byte) 0x4e, (byte) 0x47, (byte) 0x0D, (byte) 0x0a, (byte) 0x1a, (byte) 0x0a};
+final static byte[] tail = new byte[]{(byte) 0x49, (byte) 0x45, (byte) 0x4e, (byte) 0x44, (byte) 0xae, (byte) 0x42, (byte) 0x60, (byte) 0x82};

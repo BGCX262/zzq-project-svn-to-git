@@ -1,0 +1,7 @@
+MIDlet-1: Test,,com.test.Test
+MIDlet-Jar-URL: Test.jar
+MIDlet-Name: Test Midlet Suite
+MIDlet-Vendor: Midlet Suite Vendor
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0

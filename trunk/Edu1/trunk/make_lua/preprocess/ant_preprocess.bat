@@ -1,0 +1,1 @@
+%ANT_PATH%\ant -f %SRC_PATH_PREPROCESS%\tmp\mtj-build.xml

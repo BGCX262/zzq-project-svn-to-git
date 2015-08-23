@@ -1,0 +1,33 @@
+1.肯定是好的java编程基础，熟悉面向对象程序编写方式呗，java常用知识呗（如IO，类集框架的几个常见类，arraylist，Hashmap等），线程啊等等
+
+2.4大布局，常见控件listview，gridview，viewfipper，以及3.0新出来的actionbar，Fragment，以及support4.0中的一些控件，反正用到了在学
+
+3.anroid 4大组件（activity，广播，服务，contentprovider）其实这4个组件包含东西太多了，
+  比如activity的4中启动方式各种标签的用法，data ，catalog等，广播的种类，服务的启动方式，以及服务如何与其他组件进行通信，AIDL（进程间的通信）
+  contentprovider如何，封装对数据的操作，其实不单是sqlite的封装，原则上所有的数据处理都能用它来封装，比如一些问题：本应用内以及
+  多应用之间如何进行数据的共享以及通信
+
+4.intent
+
+5，android 线程的通信 ，handler的用法不是那么简单的，handler是可以进行任意线程的通信，不单单是UI线程，
+   handler，message，messagequee（消息队列） looper，几个的含义，比如，我现在，要在两个线程中进行通信
+   怎么办（其他的后台线程，不是UI线程）
+
+6.android 常见是数据存储方式
+
+7.android 中网络请求，http，tcp/ip，
+
+8.android 适配相关知识吧
+
+9 数据解析xml，json
+
+10 手势使用，重写view，实现自定义的view
+
+11.异步task，medierplay，蓝牙啊什么的，camera，sqlite数据库，
+
+12，当然还有一些其他可能用到的api：LBS,微博的，smack（xmpp）
+
+13.还有就是jni吧，以及java的一些设计模式，比方说我们的网络请求，以及下载，其实就是命令模式的使用。
+   如果，你要做游戏的话可以了解下cocos2d-x
+
+

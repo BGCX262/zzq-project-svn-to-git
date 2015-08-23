@@ -1,0 +1,1 @@
+edu1针对22个机型都用同一个版本。为了方便维护，换皮也统一用一个版本。但是换皮游戏的splash以及其他部分代码不同，所以我们决定在JYWrapper_data /_common/lua/usercode.lua中添加了宏定义“GAME_NAME" 以及 弱联网使用宏定义"WEAKNETWORK" 。在同一套代码中用此宏区别不同换皮游戏  ---------快速组 夏侯

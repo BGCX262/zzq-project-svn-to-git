@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WeatherMain!</string>
+    <string name="app_name">ZZQ天气测试</string>
+        <string name="cityname">城市名字:</string>
+    <string name="search">查询</string>
+
+</resources>

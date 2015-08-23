@@ -1,0 +1,95 @@
+// saved by AuroraGT v0.1.0.2 (SpriteEditor v0.1.0.5)
+////////////////////////////////////////////////////////////////////////////////
+/*SPRITE*/ {
+
+    VERSION 0001
+
+    // Images:  1
+    // Modules: 16
+    // Frames:  1
+    // Anims:   1
+
+////////////////////////////////////////////////////////////////////////////////
+// Images...
+// <Image> := IMAGE [id] "file" [ALPHA "alpha_file"] [TRANSP transp_color]
+
+    IMAGE 0x0000 ".\sp.png" TRANSP 0x00FF00FF // 0  size: 320 x 240  palettes: 1
+
+////////////////////////////////////////////////////////////////////////////////
+// Modules...
+// <Modules> := MODULES { <MD1> <MD2> ... }
+// <MDi>     := MD id Type [params] ["desc"]
+// Type      := MD_IMAGE | MD_RECT | ...
+// [params]  := if (Type == MD_IMAGE)     -> image x y width height
+//              if (Type == MD_RECT)      -> color width height
+//              if (Type == MD_FILL_RECT) -> color width height
+//              if (Type == MD_ARC)       -> color width height startAngle arcAngle
+//              if (Type == MD_FILL_ARC)  -> color width height startAngle arcAngle
+//              if (Type == MD_MARKER)    -> color width height
+//              if (Type == MD_TRIANGLE)  -> color p2X p2Y p3X p3Y
+//              if (Type == MD_FILL_TRIANGLE)  -> color p2X p2Y p3X p3Y
+
+    MODULES
+    {
+        MD	0x1000	MD_IMAGE	0	0	0	77	56	"_L_L_T_T"
+        MD	0x1005	MD_IMAGE	0	0	56	77	58	"_L_L_T_B"
+        MD	0x1004	MD_IMAGE	0	0	114	77	57	"_L_L_B_T"
+        MD	0x1006	MD_IMAGE	0	0	171	77	59	"_L_L_B_B"
+        MD	0x1002	MD_IMAGE	0	77	0	77	56	"_L_R_T_T"
+        MD	0x1008	MD_IMAGE	0	77	56	77	58	"_L_R_T_B"
+        MD	0x1007	MD_IMAGE	0	77	114	77	57	"_L_R_B_T"
+        MD	0x1009	MD_IMAGE	0	77	171	77	59	"_L_R_B_B"
+        MD	0x1001	MD_IMAGE	0	154	0	77	56	"_R_L_T_T"
+        MD	0x100B	MD_IMAGE	0	154	56	77	58	"_R_L_T_B"
+        MD	0x100A	MD_IMAGE	0	154	114	77	57	"_R_L_B_T"
+        MD	0x100C	MD_IMAGE	0	154	171	77	59	"_R_L_B_B"
+        MD	0x1003	MD_IMAGE	0	231	0	77	56	"_R_R_T_T"
+        MD	0x100E	MD_IMAGE	0	231	56	77	58	"_R_R_T_B"
+        MD	0x100D	MD_IMAGE	0	231	114	77	57	"_R_R_B_T"
+        MD	0x100F	MD_IMAGE	0	231	171	77	59	"_R_R_B_B"
+    }
+
+////////////////////////////////////////////////////////////////////////////////
+// Frames...
+// <Frame> := FRAME ["desc"] { id <RC1> [<RC2> ...] <FM1> [<FM2> ...] }
+// <RCi>   := RC x1 y1 x2 y2
+// <FMi>   := FM module_or_frame_id ox oy [FLAGS hex_flags] [+Flags]
+// Flags   := HYPER_FM | FLIP_X | FLIP_Y | ROT_90 | FREE_ROT
+
+    FRAME "" // Index = 0, FModules = 16
+    {
+        0x2000
+        FM	0x1000	-151	-112
+        FM	0x1005	-151	-56
+        FM	0x1004	-151	2
+        FM	0x1006	-151	59
+        FM	0x1002	-74	-112
+        FM	0x1008	-74	-56
+        FM	0x1007	-74	2
+        FM	0x1009	-74	59
+        FM	0x1001	3	-112
+        FM	0x100B	3	-56
+        FM	0x100A	3	2
+        FM	0x100C	3	59
+        FM	0x1003	80	-112
+        FM	0x100E	80	-56
+        FM	0x100D	80	2
+        FM	0x100F	80	59
+    }
+
+////////////////////////////////////////////////////////////////////////////////
+// Animations...
+// <Anim> := ANIM ["desc"] { id [<AF1> <AF2> ...] }
+// <AFi>  := AF frame_id time ox oy [FLAGS hex_flags] [+Flags]
+// Flags  := FLIP_X | FLIP_Y | ROT_90
+
+    ANIM "" // Index = 0, AFrames = 1
+    {
+        0x3000
+        AF	0x2000	200	1	0
+    }
+
+    SPRITE_END
+
+} // SPRITE
+////////////////////////////////////////////////////////////////////////////////

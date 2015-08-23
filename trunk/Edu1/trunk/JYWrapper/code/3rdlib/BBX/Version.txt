@@ -1,0 +1,2 @@
+当前版本：gcksdk_release_20110805
+注意，在接到运营商的开发包时候，请删除掉 jar包跟目录下的 XxxMIDlet类。

@@ -1,0 +1,8 @@
+yicha.txt 和 yichaTip.txt 是易查要求的两个文件 
+
+yicha.txt : 文件格式字符串“a|b|c”,a是上行内容，b是发送号码,c是发送条数：例如：519xxxxx|1066XXXXX|3
+yichaTip.txt: 资费提示语中相关的文字信息，从外部文件yichaTip读取yichaTip文件实际就是一个utf8编码的txt文件。
+
+由于他们要求yicha只能是一条a|b|c，所以我们游戏所有计费点是以一个a|b|c为单位来计费
+
+config中的PRI:x 段指的是要发送x条a|b|c

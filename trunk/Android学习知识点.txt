@@ -1,0 +1,15 @@
+1、activity生命周期  
+
+2、布局 常用的组件Button TextView等
+3、创建动画的方式
+4、Intent IntentFilter 
+5、Handler(其中要注意 MessageQuene Looper、AsyncQueryHandler)
+6、Recevier
+7、BoardCast
+8、AsyncTask
+9、存储方式
+10、网络 http 
+11、微博 以及OAuth认证
+
+
+manifest.xml文件当中每个标签的意义

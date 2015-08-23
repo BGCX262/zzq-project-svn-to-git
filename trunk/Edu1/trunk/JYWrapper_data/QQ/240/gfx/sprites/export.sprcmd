@@ -1,0 +1,15 @@
+SetGlobalBSpriteFlags(BS_DEFAULT_MIDP2 | BS_FRAME_RECTS | BS_FM_OFF_SHORT)// | BS_AF_OFF_SHORT | BS_MODULES_XY_SHORT | BS_MODULES_WH_SHORT)
+
+//SetGlobalBSpriteFlags(
+//		BS_MODULES | BS_MODULES_IMG | BS_MODULES_WH_SHORT | BS_MODULES_XY_SHORT | BS_FRAMES | 
+//		BS_NFM_1_BYTE | BS_FM_OFF_SHORT | BS_SKIP_FRAME_RC | BS_ANIMS | 
+//		BS_NAF_1_BYTE | BS_AF_OFF_SHORT | BS_MODULE_IMAGES 
+//		BS_NFM_SHORT
+//	)
+
+
+Load("cplogo.sprite")
+	ExportBSpriteEx("cplogo.gif", GLOBAL, I256, _0565)
+	
+Load("splogo.sprite")
+	ExportBSpriteEx("splogo.gif", GLOBAL, I256, _0565)
